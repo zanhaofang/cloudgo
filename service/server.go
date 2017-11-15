@@ -6,6 +6,6 @@ import (
 
 func NewServer(port string) {
 	m := martini.Classic()
-  return "Welcome"
+  	return "Welcome"
 	m.RunOnAddr(":"+port)	
 }
